@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/179aa67731.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="mdc-top-app-bar mdc-top-app-bar--img mdc-top-app-bar--prominent mdc-top-app-bar--dense">
+        <div class="mdc-top-app-bar__row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <button class="mdc-icon-button material-icons mdc-top-app-bar__navigation-icon--unbounded"><i
+                        class="material-icons">
+                        arrow_back_ios
+                    </i></button></section>
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+                <button class="mdc-icon-button material-icons mdc-top-app-bar__action-item--unbounded">
+                    <i class="material-icons">
+                        more_horiz
+                    </i></button>
+            </section>
+        </div>
+        <span class="mdc-top-app-bar__title">San Francisco, CA</span>
+        <button class="mdc-fab">
+            <i class="material-icons material-icons--plus">add</i>
+        </button>
+    </header>
+</body>
+<div class="mdc-list-group">
+    <h3 class="mdc-list-group__subheader mdc-list--header">Today</h3>
+    <ul class="mdc-list">
+        <li class="mdc-list-item mdc-list-item--size-b" tabindex="0">
+            <div class="mdc-checkbox">
+                <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
+                <div class="mdc-checkbox__background">
+                    <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                        <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+            </div>
+            <span class="mdc-list-item__text">
+                <div class="text-with-icon">
+                    <img src="img/smartphone.svg" class="icon-list icon-list--des-fix" alt="">
+                    <span class="mdc-list-item__primary-text mdc-list-item__primary-text--header">Design onboarding
+                        screen</span>
+                    <span class="mdc-list-item__secondary-text description">
+
+                    </span>
+                </div>
+            </span>
+            <button class="mdc-icon-button button-star button-star--position">
+                <i class="material-icons empty">
+                    star_border
+                </i>
+                <i class="material-icons full">
+                    star
+                </i>
+            </button>
+        </li>
+        <hr class="mdc-list-divider">
+
+        <li class="mdc-list-item mdc-list-item--size-b">
+            <div class="mdc-checkbox">
+                <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
+                <div class="mdc-checkbox__background">
+                    <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                        <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+            </div>
+            <div class="text-with-icon">
+                <img src="img/brush.svg" class="icon-list" alt="">
+                <span class="mdc-list-item__text">Create a new icon set</span>
+            </div>
+            <button class="mdc-icon-button button-star button-star--position">
+                <i class="material-icons empty">
+                    star_border
+                </i>
+                <i class="material-icons full">
+                    star
+                </i>
+            </button>
+        </li>
+    </ul>
+
+    <h3 class="mdc-list-group__subheader mdc-list--header">Tomorrow</h3>
+    <ul class="mdc-list">
+        <li class="mdc-list-item mdc-list-item--size-b">
+            <div class="mdc-checkbox">
+                <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
+                <div class="mdc-checkbox__background">
+                    <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                        <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+            </div>
+            <div class="text-with-icon">
+                <img src="img/coding.svg" class="icon-list" alt="">
+                <span class="mdc-list-item__text">Code a new portfolio web</span>
+            </div>
+            <button class="mdc-icon-button button-star button-star--position">
+                <i class="material-icons empty">
+                    star_border
+                </i>
+                <i class="material-icons full">
+                    star
+                </i>
+            </button>
+        </li>
+        <hr class="mdc-list-divider">
+
+        <li class="mdc-list-item mdc-list-item--size-b">
+            <div class="mdc-checkbox">
+                <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
+                <div class="mdc-checkbox__background mdc-checkbox__background--change">
+                    <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                        <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+            </div>
+
+            <div class="text-with-icon">
+                <img src="img/letter.svg" class="icon-list" alt="">
+                <span class="mdc-list-item__text">Send personal email</span>
+            </div>
+
+            <button class="mdc-icon-button button-star button-star--position">
+                <i class="material-icons empty">
+                    star_border
+                </i>
+                <i class="material-icons full">
+                    star
+                </i>
+            </button>
+        </li>
+        <hr class="mdc-list-divider hr-width">
+        <li class="mdc-list-item mdc-list-item--size-b deleted">
+            <div class="mdc-checkbox disabled">
+                <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
+                <div class="mdc-checkbox__background mdc-checkbox__background--change">
+                    <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                        <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+            </div>
+
+            <div class="text-with-icon">
+                <img src="img/letter.svg" class="icon-list disabled" alt="">
+                <span class="mdc-list-item__text crossed">Send personal email</span>
+            </div>
+
+            <button class="mdc-icon-button button-star button-star--position">
+                <i class="material-icons empty">
+                    delete_outline
+                </i>
+                <i class="material-icons full">
+                    rdelete
+                </i>
+            </button>
+        </li>
+        <hr class="mdc-list-divider">
+    </ul>
+</div>
+
+</html>
